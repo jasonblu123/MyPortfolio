@@ -18,6 +18,8 @@ body {
 
 .landing .landing-info img {
   width: 100%;
+  border-radius: 4px;
+  border: 1px solid #D9F0FF;
 }
 
 body {
@@ -59,7 +61,7 @@ nav {
   font-size: 2rem;
   font-weight: 400;
 }
-.landing .landing-info h3 {
+.landing .landing-info h2 {
   text-align: center;
   margin: 1rem;
   font-size: 1.4rem;
@@ -68,6 +70,6 @@ nav {
 .landing .landing-info p {
   text-align: center;
   margin-bottom: 2rem;
-  font-size: 1.4rem;
-  font-weight: 200;
+  font-size: 1rem;
+  font-weight: 400;
 }/*# sourceMappingURL=main.css.map */
