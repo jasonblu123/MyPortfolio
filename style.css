@@ -11,9 +11,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color:rgb(197, 243, 228);
+    background-color: #83C9F4;
     padding-top: 10px;
     padding-bottom: 10px;
+
 }
 .nav-logo img {
     width: 64px;
@@ -25,7 +26,7 @@
 }
 .nav-logo h1 {
     font-size: 20px;
-    color: rgba(0, 102, 255, 0.808);
+    color: #000000;
 }
 .navlink {
     color:rgb(143, 143, 143);
@@ -35,47 +36,6 @@
 .nav-links {
     padding-right: 10px;
 }
-
-/* HERO section */
-.hero {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding-top: 20px;
-}
-.hero img {
-    width: 200px;
-    border-radius: 10px;
-}
-.hero-info h1 {
-    padding: 10px;
-    text-align: center;
-}
-.hero-info p {
-    font-size: 15px;
-    padding: 3px;
-}
-.hero-info {
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-/* INFO section */
-.info {
-    padding-top: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 20px;
-}
-.info h1 {
-    padding: 10px;
-    text-align: center;
-}
-.info p {
-    font-size: 15px;
-    padding: 3px;
-}
-
 /* FOOTER section */
 .footer {
     display:flex;
@@ -87,3 +47,62 @@
     width: 20px;
     padding-right: 5px;
 }
+
+/* -HOME PAGE- */
+
+/* HERO section */
+.hero {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    padding-bottom: 30px;
+    background-color: #D9F0FF;
+}
+.hero img {
+    width: 200px;
+    border-radius: 10px;
+}
+.hero-info h1 {
+    padding: 10px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.hero-info p {
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.hero-info {
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #A3D5FF;
+    border-radius: 10px;
+}
+
+/* INFO section */
+.info {
+    padding: 10px;
+    padding-bottom: 30px;
+    background-color: #D9F0FF;
+    display: flex;
+    align-items: center;
+}
+.hero-info2 {
+    background-color: #A3D5FF;
+    border-radius: 10px;
+}
+.hero-info2 h1 {
+    padding: 10px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.hero-info2 p {
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+/* ABOUT PAGE */
