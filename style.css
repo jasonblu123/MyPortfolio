@@ -206,9 +206,11 @@ input[type=text], select {
 
 .about-image img {
     border-radius: 50px;
+    width: 280px;
 }
 
 /* BLOG PAGE */
 .blog-image img {
     border-radius: 50px;
+    width: 150px;
 }
