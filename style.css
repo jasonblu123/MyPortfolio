@@ -17,7 +17,7 @@
 
 }
 .nav-links a:hover {
-    text-decoration: none;
+    text-decoration: underline;
     color: #0066ff;
     font-weight: 600;
     position: relative;
@@ -36,7 +36,7 @@
     color: #000000;
 }
 .navlink {
-    color:rgb(143, 143, 143);
+    color:rgb(61, 61, 61);
     text-decoration: none;
     padding: 5px;
 }
