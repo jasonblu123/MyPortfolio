@@ -6,13 +6,16 @@
     font-family: 'Barlow', sans-serif;
 }
 
-/* KEYFRAMES */
+/* LOGO ANIMATION */
 @keyframes shake {
     from {
-        transform: rotate(-10deg);
+        margin-left: -50%;
+        transform: rotate(40deg);
     }
     to {
-        transform: rotate(0deg);
+        margin-left: -10%;
+        transform: rotate(-20deg);
+        transform:scale(120%);
     }
 }
 
@@ -27,7 +30,7 @@
 }
 .nav-logo a img {
     animation-name: shake;
-    animation-duration: 1s;
+    animation-duration: 2s;
     animation-iteration-count: infinite;
 }
 .nav-links a:hover {
@@ -114,7 +117,6 @@
     background-color: #D9F0FF;
 }
 .hero img {
-    width: 200px;
     border-radius: 40px;
     padding-bottom: 20px;
     padding-top: 10px; 
@@ -136,7 +138,6 @@
     background-color: #A3D5FF;
     border-radius: 10px;
 }
-
 /* HERO INFO section */
 .info {
     display: flex;
@@ -231,4 +232,31 @@ input[type=text], select {
 .blog-image img {
     border-radius: 50px;
     width: 135px;
+}
+
+
+/* DESKTOP DESIGN */
+@media screen and (min-width: 800px) {
+    .hero {
+        justify-content: center;
+        flex-direction: row;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-top: 120px;
+    }
+    .hero img {
+        max-width: 13rem;
+        display:flex;
+        padding-right: 20px;
+        border-radius: 40px;
+    }
+    .blog-image img {
+        width: 300px;
+    }
+    .about-image {
+        max-width: 18rem;
+    }
+    .additional-profiles {
+        padding-top: 250px;
+    }
 }
