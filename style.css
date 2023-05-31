@@ -6,6 +6,16 @@
     font-family: 'Barlow', sans-serif;
 }
 
+/* KEYFRAMES */
+@keyframes shake {
+    from {
+        transform: rotate(-10deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
+}
+
 /* NAVIGATION COMPONENT */
 .navigation {
     display: flex;
@@ -14,7 +24,11 @@
     background-color: #83C9F4;
     padding-top: 10px;
     padding-bottom: 10px;
-
+}
+.nav-logo a img {
+    animation-name: shake;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
 }
 .nav-links a:hover {
     text-decoration: underline;
@@ -157,14 +171,13 @@
 /* Form section */
 input[type=text], select {
     width: 100%;
-    padding: 10px 10px;
-    margin: 8px 0;
+    padding: 10px 5px;
+    margin: 5px 0;
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
   }
-  
   input[type=submit] {
     width: 100%;
     background-color: #1b5ff3e5;
@@ -174,7 +187,6 @@ input[type=text], select {
     border-radius: 4px;
     cursor: pointer;
   }
-  
   input[type=submit]:hover {
     background-color: #3082fc;
   }
@@ -183,8 +195,14 @@ input[type=text], select {
     border-radius: 5px;
     padding: 15px;
   }
-  #message {
-      padding: 10px;
+  textarea {
+    width: 100%;
+    padding: 10px 5px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
   }
 
 /* My contact details section */
