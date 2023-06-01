@@ -19,6 +19,19 @@
     }
 }
 
+@keyframes grow {
+    from {
+        margin-left: -50%;
+        transform: rotate(40deg);
+        transform:scale(50%);
+    }
+    to {
+        margin-left: -10%;
+        transform: rotate(-20deg);
+        transform:scale(100%);
+    }
+}
+
 /* NAVIGATION COMPONENT */
 .navigation {
     display: flex;
@@ -216,8 +229,13 @@ input[type=text], select {
     justify-content: center;
     padding-top: 20px;
 }
+.my-contact h3 {
+    padding-bottom: 10px;
+    text-align: center;
+}
 .my-contact h2 {
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
 .my-contact p {
     display: flex;
@@ -230,13 +248,49 @@ input[type=text], select {
     border-radius: 50px;
     width: 280px;
 }
+.resume {
+    background-color: #D9F0FF;
+    display:flex;
+    justify-content: flex-start;
+    padding-top: 50px;
+    padding-left: 15vw;
+    
+}
+.resume h6 {
+    animation-name: shake;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
+.resume img {
+    width: 150px;
+    padding-top: 10px;
+    animation-name: grow;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
 
 /* BLOG PAGE */
 .blog-image img {
-    border-radius: 50px;
+    border-radius: 40px;
     width: 135px;
 }
-
+.blog-posts p {
+    padding-bottom: 20px;
+}
+.blog-posts img {
+    border-radius: 10px;
+    width: 90vw;
+    padding: 1px;
+    background-color: #000000;
+}
+.blog-posts {
+    background-color: #D9F0FF;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 20px;
+}
 
 /* DESKTOP DESIGN */
 @media screen and (min-width: 800px) {
