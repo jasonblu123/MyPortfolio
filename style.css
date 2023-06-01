@@ -6,6 +6,10 @@
     font-family: 'Barlow', sans-serif;
 }
 
+body {
+    background-color: #D9F0FF;
+}
+
 /* LOGO ANIMATION */
 @keyframes shake {
     from {
@@ -45,6 +49,7 @@
     animation-name: shake;
     animation-duration: 2s;
     animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 .nav-links a:hover {
     text-decoration: underline;
@@ -262,7 +267,7 @@ input[type=text], select {
 .resume h6 {
     animation-name: shake;
     animation-duration: 2s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 1;
 
 }
 .resume img {
@@ -270,74 +275,90 @@ input[type=text], select {
     padding-top: 10px;
     animation-name: grow;
     animation-duration: 2s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 1;
 }
 
-/* BLOG PAGE */
-.blog-header {
+/* Blog Page*/
+.Blog-Title {
+    padding-top: 10px;
+}
+
+
+.Blog-Title h1{
     text-align: center;
-    padding: 20px;
-    font-size: 40px;
-    background: #A3D5FF;
-}
-.blogpostsright {
-    width: 100%;
-    background-color: #D9F0FF;
-    display:flex;
-    flex-direction: column;
-}
-.blog-right1 {
-    padding:20px;
-}
-.blogpostsright h1 {
     font-size: 50px;
-    padding-bottom: 20px;
 }
-.blogpostsright h2 {
-    padding-left: 10px;
-    padding-top: 10px;
+
+.Blog-Left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-.blog-right1 h5 {
-    padding-left: 10px;
+
+.Blog-Right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-.blog-right2 {
-    padding:20px;
-}
-.blog-right2 h5 {
-    padding-left: 10px;
-}
-.blogpostsright img {
-    width: 100%;
-    padding-top: 10px;
-    border-radius: 20px;
-}
-.blogpostsright p {
-    padding-bottom: 10px;
+
+.Blog-Card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
+    margin: 20px;
+    padding: 15px;
+    background-color:rgb(245, 245, 245);
+    width: 80%;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
-.blogpostsleft {
+
+.Blog-Card h1 {
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+.Blog-Card img {
+    padding-bottom: 10px;
     width: 100%;
-    background-color: #D9F0FF;
-    text-align: center;
 }
-.blogpostsleft h4 {
-    font-weight: 400;
-    color: red;
-    padding-bottom: 10px;
+
+.Card-Right {
+    width: 70%;
 }
-.blog-left1 h5 {
-    padding-bottom: 10px;
+
+.Card-Right h1 {
+    font-size: 20px;
 }
-.blogpostsleft h2 {
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-.blog-left1 img {
-    width: 50%;
-    border-radius: 10px;
-}
-.blogpostsleft p {
-    padding-bottom: 20px;
+
+/* TABLET design*/
+/* Navigation component */
+@media screen and (min-width: 500px) {
+    .navlink {
+        display: inline;
+        border-bottom: 0
+    }
+
+    /* Blog Page */
+    .Blog-Card img {
+        width: 80%;
+    }
+
+    .Blog-Card p {
+        width: 80%;
+    }
+
+    .Card-Right {
+        width: 70%;
+    }
+
+    .Card-Right h1 {
+        font-size: 28px;
+    }
+
+    .Card-Right p {
+        width: 70%
+    }
 }
 
 /* DESKTOP DESIGN */
@@ -349,6 +370,7 @@ input[type=text], select {
     }
     /* HERO */
     .hero {
+        height: 70vh;
         justify-content: center;
         flex-direction: row;
         padding-top: 100px;
@@ -380,47 +402,19 @@ input[type=text], select {
 }
 @media screen and (min-width: 1280px) {
     /* BLOG */
-    .blog-header {
-        text-align: center;
-        padding: 40px;
-        font-size: 40px;
-        background: #A3D5FF;
+    .Blog-Title h1 {
+        font-size: 70px
     }
-    .blogpostsright {
-        padding-right: 20px;
-        width: 60%;
-        background-color: #D9F0FF;
+
+    .Blog-Section {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
     }
-    .blogpostsright img {
-        width: 100%;
-        padding-top: 10px;
-        border-radius: 20px;
-    }
-    .blogpostsright p {
-        padding-bottom: 30px;
-    }
-    .blogpostsleft {
-        width: 39.5%;
-        background-color: #D9F0FF;
-        text-align: center;
-    }
-    .blogpostsleft h2 {
-        padding-top: 100px;
-        padding-bottom: 20px;
-    }
-    .blog-left1 img {
+
+    .Card-Right {
         width: 50%;
-        border-radius: 10px;
     }
-    .blogpostsleft p {
-        padding-bottom: 20px;
-    }
+
 }
-/* TABLET design*/
-/* Navigation component */
-@media screen and (min-width: 500px) {
-    .navlink {
-        display: inline;
-        border-bottom: 0
-    }
-}
+
