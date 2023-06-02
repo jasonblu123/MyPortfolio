@@ -45,7 +45,7 @@ body {
     font-size: 30px;
     color: rgb(0, 0, 0);
     animation-name: grow;
-    animation-duration: 1.5s;
+    animation-duration: 2s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
@@ -351,7 +351,7 @@ input {
     color: rgb(70, 69, 69);
 }
 .blog-links ul li {
-    padding: 5px;
+    padding: 3px;
 }
 .blog-links ul li a:hover {
     text-decoration: underline;
