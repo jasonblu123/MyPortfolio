@@ -25,13 +25,9 @@ body {
 
 @keyframes grow {
     from {
-        margin-left: -50%;
-        transform: rotate(40deg);
-        transform:scale(50%);
+        transform:scale(10%);
     }
     to {
-        margin-left: -10%;
-        transform: rotate(-20deg);
         transform:scale(100%);
     }
 }
@@ -89,6 +85,7 @@ body {
     display: flex;
     justify-content: flex-end;
     padding-right: 15px;
+    padding-bottom: 5px;
     background-color:#D9F0FF;
 }
 .topscroll a {
@@ -138,9 +135,10 @@ body {
     padding-right: 30px;
     background-color: #D9F0FF;
     padding-top: 10px;
+    gap: 10px;
 }
 .hero img {
-    width: 50vw;
+    width: 60vw;
     border-radius: 10px;
     padding: 1px;
     background: #000000;
@@ -257,24 +255,19 @@ input[type=text], select {
     width: 280px;
 }
 .resume {
-    background-color: #D9F0FF;
     display:flex;
-    justify-content: flex-start;
-    padding-top: 50px;
-    padding-left: 15vw;
-    
-}
-.resume h6 {
-    animation-name: shake;
-    animation-duration: 2s;
-    animation-iteration-count: 1;
-
+    flex-direction: column;
+    align-items: center;
 }
 .resume img {
-    width: 150px;
-    padding-top: 10px;
+    width: 200px;
     animation-name: grow;
-    animation-duration: 2s;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+.resume h6 {
+    animation-name: grow;
+    animation-duration: 3s;
     animation-iteration-count: 1;
 }
 
@@ -315,6 +308,9 @@ input[type=text], select {
 
 .Blog-Card h1 {
     font-size: 40px;
+}
+
+.Blog-Card h6 {
     padding-bottom: 10px;
 }
 
@@ -369,17 +365,25 @@ input[type=text], select {
         border-bottom: 0
     }
     /* HERO */
-    .hero {
+    /* .hero {
         height: 70vh;
         justify-content: center;
         flex-direction: row;
-        padding-top: 100px;
+        padding-top: 0px;
         padding-left: 30px;
         padding-right: 30px;
-        gap: 50px;
+        gap: 20px;
+    } */
+    .hero {
+        height: 70vh;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        background-color: #D9F0FF;
+        gap: 20px;
     }
     .hero-image img{
-        width: 18vw;
+        width: 16em;
     }
     .hero-info {
         width: 25em;
@@ -393,15 +397,35 @@ input[type=text], select {
         max-width: 400px;
     }
     .my-contact {
-        padding-top: 50px;
+        padding-top: 0px;
     }
     /* ADDITIONAL PROFILES SECTION */
     .additional-profiles {
-        padding-top: 100px;
+        padding-top: 50px;
     }
+        /* BLOG */
+        .Blog-Title h1 {
+            font-size: 70px;
+            padding-bottom: 30px;
+        }
+    
+        .Blog-Section {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+    
+        .Card-Right {
+            width: 40%;
+        }
+
+        .Blog-Left {
+            padding-left: 80px;
+        }
+    
 }
-@media screen and (min-width: 1280px) {
-    /* BLOG */
+/* @media screen and (min-width: 1280px) {
+    BLOG
     .Blog-Title h1 {
         font-size: 70px
     }
@@ -416,5 +440,5 @@ input[type=text], select {
         width: 50%;
     }
 
-}
+} */
 
