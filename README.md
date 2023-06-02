@@ -6,12 +6,25 @@ https://github.com/jasonblu123/MyPortfolio
 <!-- A link to your presentation video -->
 
 <!-- Description of your portfolio website, including,
-Purpose
-Functionality / features
-Sitemap
-Screenshots
-Target audience
-Tech stack (e.g. html, css, deployment platform, etc) -->
+Website Purpose--->
+To provide detailing information about me, Express my personality and experiences and showcase my web development coding skills to attract potential clients and employers. -->
+
+<!-- Functionality / features -->
+Navigation panel with icon home button, picture/text animation, scroll to top feature,
+contact me message feature, linked in/github/resume links,
+links to blogs
+
+<!-- Sitemap -->
+In sitemap folder src/sitemap
+<!-- 
+Screenshots -->
+In sitemap folder src/sitemap
+
+<!-- Target audience -->
+Potential clients and employers
+
+<!-- Tech stack (e.g. html, css, deployment platform, etc) -->
+html, css, netlify, wirify, balsamic iq,
 
 <!-- DOCUMENTATION -->
 Reference List
