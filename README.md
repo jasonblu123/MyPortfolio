@@ -17,10 +17,11 @@ contact me message feature, linked in/github/resume links,
 links to blogs
 
 <!-- Sitemap -->
-In sitemap folder src/sitemap
-<!-- 
-Screenshots -->
-In sitemap folder src/sitemap
+[Sitemap](src/sitemap/sitemap%20page.png)
+
+<!-- Screenshots -->
+![Alt text](src/wireframes/wireframe.png)
+[Alt text](src/wireframes/wireframe%20real.png)
 
 <!-- Target audience -->
 Potential clients and employers
