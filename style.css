@@ -182,7 +182,6 @@ body {
     width: 80vw;
     border-bottom: 2px solid rgb(0, 132, 255);
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-
 }
 /* HERO INFO section */
 .info {
@@ -213,7 +212,7 @@ input {
     border-radius: 4px;
   }
   input[type=submit] {
-    width: 103.5%;
+    width: 103.8%;
     cursor: pointer;
     background-color: #255df8;
   }
@@ -435,27 +434,28 @@ input {
     .additional-profiles {
         padding-top: 50px;
     }
-        /* BLOG */
-        .Blog-Title h1 {
-            font-size: 70px;
-            padding-bottom: 30px;
-        }
-    
-        .Blog-Section {
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-        }
-    
-        .Card-Right {
-            width: 40%;
-        }
+    /* BLOG */
+    .Blog-Title h1 {
+        font-size: 70px;
+        padding-bottom: 30px;
+    }
 
-        .Blog-Left {
-            padding-left: 80px;
-        }
-        .blog-links {
-            padding: 0px;
-            align-items: flex-start;
-        }
+    .Blog-Section {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .Card-Right {
+        width: 40%;
+    }
+
+    .Blog-Left {
+        padding-left: 80px;
+    }
+    .blog-links {
+        padding: 0px;
+        align-items: flex-start;
+    }
+    
 }

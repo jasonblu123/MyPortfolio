@@ -1,13 +1,15 @@
 # MyPortfolio
 <!-- A link (URL) to your published portfolio website -->
 https://jasonblu123.netlify.app/
+
 <!-- A link to your GitHub repo -->
 https://github.com/jasonblu123/MyPortfolio
+
 <!-- A link to your presentation video -->
 
 <!-- Description of your portfolio website, including,
 Website Purpose--->
-To provide detailing information about me, Express my personality and experiences and showcase my web development coding skills to attract potential clients and employers. -->
+To provide detailing information about me, Express my personality and experiences and showcase my web development coding skills to attract potential clients and employers.
 
 <!-- Functionality / features -->
 Navigation panel with icon home button, picture/text animation, scroll to top feature,
