@@ -21,8 +21,8 @@ links to blogs
 [Sitemap](docs/sitemap%20page.png)
 
 <!-- Screenshots -->
-[Alt text](docs/wireframe.png)
-[Alt text](docs/wireframe%20real.png)
+[Wireframe](docs/wireframe.png)
+[Wireframe Real](docs/wireframe%20real.png)
 
 <!-- Target audience -->
 Potential clients and employers
