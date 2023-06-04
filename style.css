@@ -338,15 +338,13 @@ input {
 .Card-Right h1 {
     font-size: 20px;
 }
-.blog-links {
+.blog-links p {
+    padding: 10px;
+    font-weight: 600;
     display: flex;
     flex-direction: column;
     padding: 10px;
     align-items: center;
-}
-.blog-links p {
-    padding: 10px;
-    font-weight: 600;
 }
 .blog-links ul li a {
     text-decoration: none;
@@ -455,10 +453,6 @@ input {
 
     .Blog-Left {
         padding-left: 80px;
-    }
-    .blog-links {
-        padding-top: 3px;
         align-items: flex-start;
     }
-    
 }
