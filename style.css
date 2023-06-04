@@ -457,7 +457,7 @@ input {
         padding-left: 80px;
     }
     .blog-links {
-        padding: 0px;
+        padding-top: 3px;
         align-items: flex-start;
     }
     
