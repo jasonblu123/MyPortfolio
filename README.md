@@ -6,6 +6,7 @@ https://jasonblu123.netlify.app/
 https://github.com/jasonblu123/MyPortfolio
 
 <!-- A link to your presentation video -->
+https://www.youtube.com/watch?v=yXQl7uQ_UZY
 
 <!-- Description of your portfolio website, including,
 Website Purpose--->
@@ -27,7 +28,7 @@ links to blogs
 Potential clients and employers
 
 <!-- Tech stack (e.g. html, css, deployment platform, etc) -->
-html, css, netlify, wirify, balsamic iq,
+html, css, netlify, wirify, balsamic iq, iphone simulator
 
 <!-- DOCUMENTATION -->
 Reference List
