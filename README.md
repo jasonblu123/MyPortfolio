@@ -18,11 +18,11 @@ contact me message feature, linked in/github/resume links,
 links to blogs
 
 <!-- Sitemap -->
-[Sitemap](src/sitemap/sitemap%20page.png)
+[Sitemap](docs/sitemap/sitemap%20page.png)
 
 <!-- Screenshots -->
-![Alt text](src/wireframes/wireframe.png)
-[Alt text](src/wireframes/wireframe%20real.png)
+![Alt text](docs/wireframes/wireframe.png)
+[Alt text](docs/wireframes/wireframe%20real.png)
 
 <!-- Target audience -->
 Potential clients and employers
